@@ -9,7 +9,7 @@ lazy val commonSettings = Seq(
   resolvers += Resolver.bintrayRepo("mockito", "maven"),
   scalacOptions in Compile ++= Seq(
     "-encoding", "UTF-8",
-    "-target:jvm-1.8",
+    "-target:jvm-11",
     "-feature",
     "-deprecation",
     "-unchecked",
